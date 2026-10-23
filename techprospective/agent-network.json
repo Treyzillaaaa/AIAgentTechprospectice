@@ -1,0 +1,98 @@
+{
+  "project": "TechProspective Enterprises AI Network",
+  "version": 1,
+  "theme": "Kanto-inspired original pixel-art identity",
+  "businesses": [
+    {
+      "id": "fore-and-pour",
+      "name": "Fore & Pour"
+    },
+    {
+      "id": "byte-me",
+      "name": "Byte Me"
+    },
+    {
+      "id": "techprospective-solutions",
+      "name": "TechProspective Solutions"
+    },
+    {
+      "id": "swat-productions",
+      "name": "SWAT Productions"
+    }
+  ],
+  "stations": [
+    {
+      "id": "league",
+      "name": "Pokémon League",
+      "responsibility": "Executive coordination"
+    },
+    {
+      "id": "center",
+      "name": "Pokémon Center",
+      "responsibility": "Operations and support"
+    },
+    {
+      "id": "mart",
+      "name": "Poké Mart",
+      "responsibility": "Sales, purchasing and inventory"
+    },
+    {
+      "id": "gym",
+      "name": "Pokémon Gym",
+      "responsibility": "KPIs and performance"
+    },
+    {
+      "id": "trading-center",
+      "name": "Trading Center",
+      "responsibility": "Partners and vendors"
+    },
+    {
+      "id": "lab",
+      "name": "Professor's Lab",
+      "responsibility": "Research and development"
+    },
+    {
+      "id": "silph",
+      "name": "Silph Co.",
+      "responsibility": "IT and automation"
+    },
+    {
+      "id": "safari",
+      "name": "Safari Zone",
+      "responsibility": "Lead generation"
+    },
+    {
+      "id": "game-corner",
+      "name": "Game Corner",
+      "responsibility": "Marketing"
+    },
+    {
+      "id": "storage",
+      "name": "Pokémon Storage PC",
+      "responsibility": "Business knowledge"
+    },
+    {
+      "id": "day-care",
+      "name": "Day Care",
+      "responsibility": "Training"
+    },
+    {
+      "id": "tower",
+      "name": "Pokémon Tower",
+      "responsibility": "Risk and archives"
+    },
+    {
+      "id": "elite-four",
+      "name": "Elite Four",
+      "responsibility": "Specialist reviews"
+    }
+  ],
+  "approvalRequired": [
+    "payments",
+    "contracts",
+    "external publication",
+    "data deletion",
+    "permission changes"
+  ],
+  "status": "configuration-only; no active agents or integrations"
+}
