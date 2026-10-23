@@ -1,0 +1,30 @@
+/* TechProspective Pokédex — visually distinct, no reuse of protected Pokémon graphics. */
+#tp-launch{position:fixed;right:16px;bottom:82px;z-index:7800;background:#153b39;color:#b9ffdb;border:2px solid #77dbad;border-radius:8px;padding:10px 16px;font:20px VT323,monospace;box-shadow:0 5px 25px #000b;cursor:pointer}
+#tp-launch:hover,#tp-launch:focus-visible{background:#245f54}
+#tp-pokedex[hidden]{display:none!important}
+#tp-pokedex{position:fixed;inset:5% 5%;z-index:9000;overflow-y:auto;background:#0c1823;color:#e0f8ed;border:3px solid #74cdb0;box-shadow:0 0 0 9999px #020809c9,0 16px 50px #000; padding:clamp(15px,3vw,35px);font-family:VT323,monospace;font-size:21px}
+#tp-pokedex .tp-head{display:flex;justify-content:space-between;gap:15px;border-bottom:2px solid #31594e;padding-bottom:14px}
+#tp-pokedex small{font-size:17px;color:#8fd8c0;letter-spacing:.08em}
+#tp-pokedex h2{margin:5px 0;font-size:46px;line-height:1}
+#tp-pokedex h2 span{font-size:25px;color:#8edabf}
+#tp-pokedex p{margin:8px 0;color:#b7cabe}
+#tp-pokedex button,#tp-pokedex select{font:inherit;background:#142d36;color:#dcf9e6;border:1px solid #528a7a;border-radius:5px;padding:5px 10px;cursor:pointer}
+#tp-pokedex button:hover,#tp-pokedex button:focus-visible,#tp-pokedex select:focus-visible{outline:2px solid #b8ffd5}
+#tp-pokedex .tp-close{align-self:start;font-size:32px;min-width:42px}
+#tp-pokedex .tp-controls{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:20px 0}
+#tp-pokedex .tp-controls label{display:flex;gap:9px;align-items:center}
+#tp-pokedex .tp-live{color:#a9d9c2}
+#tp-pokedex .tp-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,310px),1fr));gap:14px}
+#tp-pokedex .tp-card{background:#132a35;border:1px solid #345e66;border-radius:9px;padding:14px;min-width:0}
+#tp-pokedex .tp-card-top{display:flex;align-items:center;gap:10px}
+#tp-pokedex .tp-symbol{display:grid;place-items:center;flex:none;width:42px;height:42px;border:2px solid #3c9d83;border-radius:9px;color:#e1f9ad;font-size:29px}
+#tp-pokedex h3{font-size:26px;line-height:1.1;margin:1px 0}
+#tp-pokedex .tp-state{margin-left:auto;font-size:15px;color:#abb4b5}
+#tp-pokedex .tp-state.tp-bound{color:#92f6b7}
+#tp-pokedex .tp-card>p{min-height:25px}
+#tp-pokedex .tp-card>label{display:flex;flex-direction:column;gap:3px;color:#9ed5c1;font-size:17px}
+#tp-pokedex .tp-card select{width:100%;max-width:100%}
+#tp-pokedex .tp-card-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;min-height:42px;font-size:17px}
+#tp-pokedex .tp-card-foot button{flex:none}
+#tp-pokedex footer{margin:20px 0 0;color:#8daea7;font-size:17px}
+@media(max-width:640px){#tp-pokedex{inset:2%;padding:13px}#tp-pokedex h2{font-size:34px}#tp-launch{bottom:18px;right:12px}}
